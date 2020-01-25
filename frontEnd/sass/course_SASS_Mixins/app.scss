@@ -1,0 +1,23 @@
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+}
+
+@mixin transition($arg1) {
+    transition: $arg1;
+}
+
+#btn {
+    @include border-radius(10%)
+}
+
+#btn_trans {
+    @include transition(all 0.5s ease-in-out);
+    &:hover{
+    @include transition(all 0.5s ease-in-out);
+    background: black;
+    color: red;
+    }
+}

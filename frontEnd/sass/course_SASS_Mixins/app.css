@@ -1,0 +1,17 @@
+#btn {
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+}
+
+#btn_trans {
+  transition: all 0.5s ease-in-out;
+}
+#btn_trans:hover {
+  transition: all 0.5s ease-in-out;
+  background: black;
+  color: red;
+}
+
+/*# sourceMappingURL=app.css.map */
